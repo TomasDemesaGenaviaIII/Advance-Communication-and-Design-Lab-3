@@ -33,7 +33,6 @@
 > 13. Connect the scope's Channel 2 input to the PCM Encoder module's output.
 
 <img width="1524" height="1148" alt="image" src="https://github.com/user-attachments/assets/04b79553-cab1-4175-a94e-b28b392e836a" />
-> 15. Draw the resulting waveform (10 bits of data) to scale on the graph paper.
 
 
 
