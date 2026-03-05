@@ -72,7 +72,9 @@
 
 <img width="621" height="456" alt="Part D Output" src="https://github.com/user-attachments/assets/50dbb844-be7b-41fa-b6da-81f875899344" />
 
-Each of the three waveforms in the images provides insight into the signal's behavior under various conditions and illustrates various aspects of signal analysis. The first waveform, which is called "Part A: Sampling," shows a sinusoidal wave that is relatively clean. This means that the signal has been well-sampled and accurately reproduces the original waveform without much distortion. For accurate digital representation, the measured parameters, such as the peak-to-peak voltage (Vpp) and frequency, indicate a stable and consistent signal. The waveform appears to be more complex and less uniform when we move on to 
+Each of the three waveforms in the images provides insight into the signal's behavior under various conditions and illustrates various aspects of signal analysis. The first waveform, which is called 
+
+Part A: Sampling, shows a sinusoidal wave that is relatively clean. This means that the signal has been well-sampled and accurately reproduces the original waveform without much distortion. For accurate digital representation, the measured parameters, such as the peak-to-peak voltage (Vpp) and frequency, indicate a stable and consistent signal. The waveform appears to be more complex and less uniform when we move on to 
 
 Part B: Speech, which is a reflection of the natural variability that is a part of speech signals. The fluctuations in amplitude and frequency that characterize this complexity are typical of human speech patterns and necessitate more advanced processing for effective analysis. The final waveform, 
 
@@ -80,11 +82,11 @@ Part D: Aliasing, demonstrates the effects of low sampling rates by introducing 
 
 # QUESTION AND ANSWER
 > 1. What two features of the sampled signal confirm that the set-up models the sample-and-hold scheme?
-   ANSWER
+   > ANSWER
 The flat-topped segments in the waveform indicate that the signal is being held constant during each interval. The discrete sampling points show the exact moments when the signal is captured. These features confirm the setup models the sample-and-hold scheme.
 
 > 2. Why is the practical minimum sampling rate slightly higher than the theoretical Nyquist rate?
-   ANSWER
+   > ANSWER
 The practical minimum sampling rate is slightly higher than the theoretical Nyquist rate because of real-world factors such as filter imperfections, noise, and signal distortion. These factors require a higher sampling rate to accurately reconstruct the original signal and avoid aliasing.
 
 # LEARNING SUMMARY
