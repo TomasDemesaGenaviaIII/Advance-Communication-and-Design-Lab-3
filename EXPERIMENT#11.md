@@ -52,7 +52,8 @@
 ## BLOCK DIAGRAM
 <img width="677" height="490" alt="Part C Block Diagram" src="https://github.com/user-attachments/assets/07caa501-1019-4a0f-9b90-7726e9c9f003" />
 
-PART D: INVESTIGATING ALIASING
+
+## PART D: INVESTIGATING ALIASING
 > 18. Locate the VCO module, set Frequency Adjust fully clockwise, and set Range to LO.
 > 19. Replace the fixed 8KHz control signal with the VCO variable frequency output.
 > 20. Monitor the reconstructed signal on CH2 while slowly decreasing the VCO frequency.
