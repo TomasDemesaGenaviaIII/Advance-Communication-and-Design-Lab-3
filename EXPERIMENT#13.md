@@ -84,9 +84,8 @@
 > 40. Disconnect the Buffer lead from the PCM Decoder and connect it to the **VCO** output.
 > 41. Compare the sound of the two signals; they should be very similar.
 
+## BLOCK DIAGRAM
 
-
-##BLOCK DIAGRAM
 <img width="3500" height="1806" alt="image" src="https://github.com/user-attachments/assets/64a3aa5d-980d-4922-9278-1ef8843ea285" />
 
 <img width="3125" height="2392" alt="image" src="https://github.com/user-attachments/assets/6d2b5e1d-8988-4241-9383-e54865fe779e" />
