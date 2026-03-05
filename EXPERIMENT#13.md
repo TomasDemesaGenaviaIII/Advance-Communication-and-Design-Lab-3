@@ -5,7 +5,7 @@
 > 3. To reconstruct the original message and speech signals using a tuneable low-pass filter.
 
 ## INTRODUCTION
-Pulse Code Modulation (PCM) Decoding is the process of converting a digital PCM signal back into its original analog form. In a communication system, PCM decoding occurs at the receiver side after the signal has been transmitted over a channel. The encoded digital data consists of binary values that represent the sampled amplitudes of the original analog signal. During the decoding process, these binary codes are first interpreted and converted back into their corresponding quantized amplitude levels.
+> Pulse Code Modulation (PCM) Decoding is the process of converting a digital PCM signal back into its original analog form. In a communication system, PCM decoding occurs at the receiver side after the signal has been transmitted over a channel. The encoded digital data consists of binary values that represent the sampled amplitudes of the original analog signal. During the decoding process, these binary codes are first interpreted and converted back into their corresponding quantized amplitude levels.
 
 ## MATERIALS
 > 1. Emona Telecomms-Trainer 101 (plus power-pack)
