@@ -1,5 +1,5 @@
 # EXP 19: DIRECT SEQUENCE SPREAD SPECTRUM MODULATION AND DEMODULATION
-## ONJECTIVES
+## OBJECTIVES
 > 1. To generate a Direct Sequence Spread Spectrum (DSSS) signal.
 > 2. To understand how a Pseudo-Noise (PN) sequence spreads a message signal.
 > 3. To observe the similarity between DSSS and DSBSC modulation.
