@@ -23,6 +23,7 @@
 
 
 ## BLOCK DIAGRAM
+<img width="612" height="453" alt="Part A Block Diagram" src="https://github.com/user-attachments/assets/4ad896ff-ecf7-444d-9ad6-46e9f2da6a08" />
 
 
 
