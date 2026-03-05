@@ -89,10 +89,30 @@
 
 <img width="1639" height="1231" alt="image" src="https://github.com/user-attachments/assets/a1f03eb5-0dcc-41f9-be58-c0d7e6e02d32" />
 
+## QUESTIONA AND ANSWER
+> 1. Indicate on your drawing the start and end of the frame. 
+> 2. Indicate on your drawing the start and end of each bit. 
+> 3. Indicate on your drawing which bit is bit-0 and which is bit-7.
+> 4. What is the binary number that the PCM Encoder module is outputting at 0V?
+> 5. Why does the code change even though the input voltage is steady?
+> 6. Why does the PCM Encoder module output this code for 0V DC and not 00000000?
+> 7. What happens to the Variable DCV module's output?
+> 8. In what way does the binary number change?
+> 9. Explain why you were unable to obtain 11111111.
+> 10. Devise a method of obtaining a variable DC voltage that can reach the limits.
+> 11. What happens to the binary number as the size of the negative input voltage increases?
+> 12. What is the maximum allowable amplitude (peak-to-peak) for an AC signal?
+> 13. What's the name for the difference between a sampled voltage and its closest quantisation level?
+> 14.  Calculate the difference between the quantisation levels
+> 15.  To reduce quantisation error it's better to have:
+> 16.  To reduce quantisation error it's better to have:
 
+
+## DATA ANALYSIS AND RESULTS
 | PCM ENCODER(OUTPUT) | PCM ENCOUDER (INPUT VOLTAGE)|
 |------------------|--------------------|
 | 11111111(+ PEAK) | + 2.5 V            | 
 | 10000000 (MP)    | 0.00 V             | 
 | 00000000 (- PEAK) | -2.5 V             | 
  
+# LEARNING SUMMARY
