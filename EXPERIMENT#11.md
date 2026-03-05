@@ -10,3 +10,10 @@
 4. BNC-to-banana oscilloscope leads and assorted patch leads
 # PROCEDURES
 ## PART A: SAMPLING A SIMPLE MESSAGE
+> 1. Gather the required equipment and ensure the trainer is powered.
+> 2. Connect the 2KHz SINE output from the Master Signals module to the IN socket of the Dual Analog Switch.
+> 3. Connect the 8KHZ DIGITAL output to the CONTROL input of the switch.
+> 4. Set the oscilloscope's Trigger Source to CH1 and the Mode to CH1.
+> 5. View the 2KHz SINE output on CH1 and adjust the Timebase to view approximately two cycles.
+
+
