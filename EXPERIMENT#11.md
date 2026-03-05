@@ -8,3 +8,5 @@
 2. Dual-channel 20MHz oscilloscope
 3. Master Signals, Dual Analog Switch, Speech, Tuneable LPF, VCO
 4. BNC-to-banana oscilloscope leads and assorted patch leads
+## PROCEDURES
+# PART A: SAMPLING A SIMPLE MESSAGE
