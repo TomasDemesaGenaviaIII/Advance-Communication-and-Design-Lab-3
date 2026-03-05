@@ -60,7 +60,7 @@ PART D: INVESTIGATING ALIASING
 
 
 ## BLOCK DIAGRAM
-![Uploading Part D Block Diagram.png…]()
+<img width="674" height="500" alt="Part D Block Diagram" src="https://github.com/user-attachments/assets/2a999c99-1f78-48a3-9485-7543851e4342" />
 
 
 
