@@ -40,7 +40,10 @@
 ## PART C: RECONSTRUCTING A SAMPLED MESSAGE
 > 14. Return the Timebase to 0.1ms/div and reconnect the 2KHz SINE message.
 > 15. Set the Tuneable LPF module's Gain to the middle and turn the Cut-off Frequency Adjust fully anti-clockwise.
-> 16. <img width="1362" height="948" alt="image" src="https://github.com/user-attachments/assets/c601b7a6-2bad-4ebf-8df1-cd616e8ef1b5" />
+
+
+
+<img width="1362" height="948" alt="image" src="https://github.com/user-attachments/assets/c601b7a6-2bad-4ebf-8df1-cd616e8ef1b5" />
 <img width="1339" height="943" alt="image" src="https://github.com/user-attachments/assets/32b7defe-8f73-4803-bb90-946791ab2ca4" />
 <img width="1343" height="969" alt="image" src="https://github.com/user-attachments/assets/36b190fa-ab6a-4de7-9073-fed1a71cc5e3" />
 
