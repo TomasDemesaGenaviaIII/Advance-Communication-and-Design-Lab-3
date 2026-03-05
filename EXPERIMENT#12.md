@@ -107,9 +107,7 @@
 > 15.  To reduce quantisation error it's better to have:
 > 16.  To reduce quantisation error it's better to have:
 
-
->     ANSWERS
-
+>> ANSWERS
 
 > 1. The frame starts at the beginning of Bit-7 (MSB) and ends after Bit-0 (LSB).
 > 2. Each bit period is defined by one period of the 8kHz clock signal.
