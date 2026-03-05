@@ -24,7 +24,69 @@
 > 6. Set the scope's Timebase control to the 0.1ms/div position.
 > 7. Locate the Sequence Generator module and set its dip-switches to 00.
 > 8. Connect the set-up so that:
+
         > Sequence Generator CLK connects to Master Signals 8kHz clock.
         > Sequence Generator SYNC connects to Scope EXT trigger.
         > Sequence Generator OUT connects to Multiplier X input.
         > Master Signals 100kHz sine connects to Multiplier Y input.
+## BLOCK DIAGRAM
+<img width="3500" height="2642" alt="image" src="https://github.com/user-attachments/assets/025bfa9e-0d9c-4f30-baac-cdae94119a79" />
+
+<img width="2145" height="1663" alt="image" src="https://github.com/user-attachments/assets/a307ecae-7ab7-49cc-a07d-c54c138f9fa6" />
+
+
+
+> 9. Set the scope’s Mode control to the DUAL position to view the digital signal and the BPSK signal.
+> 10. Activate the scope’s Sweep Magnification control.
+> 11. Compare the signals and observe phase reversals.
+> 12. Use the scope’s Horizontal Position control if needed to observe a logic transition clearly
+> 13. Deactivate the scope’s Sweep Magnification control.
+> 14. Use the scope’s Channel 1 Vertical Position control to overlay the digital signal with the BPSK signal’s envelopes and compare them.
+
+## PART B: DEMODULATING BSPK USING A PRODUCT DETECTOR
+> 15. Locate the Tuneable Low-pass Filter module and turn its Cut-off Frequency Adjust control fully clockwise.
+> 16. Set the Tuneable Low-pass Filter Gain control to about the middle of its travel.
+> 17. Modify the set-up by adding a second Multiplier and the Low-pass Filter to form a product detector.
+> 18. Compare the original digital signal with the recovered digital signal.
+
+## BLOCK DIAGRAM
+<img width="3280" height="2504" alt="image" src="https://github.com/user-attachments/assets/18f745a2-bbd7-4f8f-b869-c0f1afa8e0db" />
+
+<img width="3500" height="1883" alt="image" src="https://github.com/user-attachments/assets/ede40e7a-45c8-4821-95c5-493b0106ca75" />
+
+
+
+## PART C: RESTORING THE RECOVERED DIGITAL SIGNAL USING A COMPARATOR
+> 19. Modify the set-up by connecting the Low-pass Filter output to the Comparator IN and adding the Variable DCV module to the Comparator REF input.
+> 20. Set the Variable DCV module’s Variable DC control to about the middle of its travel.
+> 21. Compare the signals. If they are not identical, vary the Variable DC control until the recovered digital signal matches the original (ignoring phase shift).
+
+## BLOCK DIAGRAM
+<img width="3500" height="1658" alt="image" src="https://github.com/user-attachments/assets/488b5555-21a7-4c97-878b-ff22ebeab268" />
+
+<img width="3682" height="2800" alt="image" src="https://github.com/user-attachments/assets/2b5fd63c-ca3b-4041-837e-f9185739d3b0" />
+
+
+
+## DATA ANALYSIS
+>The Binary Phase Shift Keying (BPSK) experiment demonstrates a digital modulation technique in which the phase of a carrier signal is changed according to the binary input data. In BPSK, two phase states separated by 180° are used to represent binary digits: one phase corresponds to binary 1, while the opposite phase corresponds to binary 0. The amplitude and frequency of the carrier remain constant, and only the phase changes when the digital input signal changes state.
+>During the experiment, the digital input signal controlled the phase of the carrier wave produced by the modulator. When the input data switched between 1 and 0, the phase of the carrier signal reversed by 180°, producing the BPSK modulated waveform. On the oscilloscope, this appeared as a sinusoidal signal that flips its phase whenever the digital bit changes. At the receiver, a coherent demodulator or phase detector was used to compare the received signal with a reference carrier in order to recover the original digital data. BPSK is considered one of the most robust digital modulation techniques because the large phase separation between symbols makes it more resistant to noise and distortion in the communication channel.
+
+## QUESTION AND ANSWERS
+> 1. What happens to the BPSK signal on the data stream's logic transitions?
+> 2. What feature of the BPSK signal suggests that it's a DSBSC signal?
+> 3. Why is the recovered digital signal not a perfect copy of the original?
+> 4. What can be used to “clean-up” the recovered digital signal?
+> 5. Why does varying the DC voltage on the comparator’s input change the shape of the digital signal?
+
+>> ANSWERS
+
+> 1. At each logic transition, the BPSK signal undergoes a 180° phase shift. The sine wave instantly inverts in polarity.
+> 2. The envelope of the BPSK signal follows the digital data pattern and crosses zero during polarity changes, which is characteristic of a suppressed carrier signal.
+> 3. The Low-pass Filter removes high-frequency components of the square wave, rounding the edges and slightly distorting the waveform.
+> 4. A comparator circuit (or Schmitt trigger).
+> 5. The DC voltage sets the comparator’s threshold level. Because the recovered signal has sloped edges, changing the threshold alters the exact switching point, which affects the pulse width of the output waveform.
+
+## SUMMARY OF LEARNINGS
+>A high-frequency carrier was used to multiply a digital data stream in this experiment, resulting in the characteristic 180° phase reversals that are characteristic of BPSK signals. It was evident that digital transitions and carrier phase inversion are linked. A product detector was used in demodulation, and a Low-pass filter was used to recover the baseband signal. A comparator was able to successfully restore the signal to a clean digital format despite the fact that filtering caused the edges of the waveform to become rounder. This experiment highlighted the robustness of BPSK modulation and demodulation in digital communication systems and demonstrated its practical application.
+>This experiment helped deepen the understanding of phase modulation in digital communication systems. Observing how the phase of the carrier wave changes according to the digital input signal provided a clear visualization of how binary data can be transmitted through phase variations. It also highlighted the advantages of BPSK, particularly its reliability and resistance to noise compared to other modulation methods such as ASK. Through this activity, the importance of modulation and demodulation processes in ensuring accurate data transmission in communication systems became more evident
