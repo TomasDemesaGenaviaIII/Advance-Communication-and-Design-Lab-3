@@ -41,6 +41,54 @@
 <img width="2443" height="2123" alt="image" src="https://github.com/user-attachments/assets/92bb6c2e-1e2b-456a-8093-00beded35c30" />
 <img width="2581" height="2258" alt="image" src="https://github.com/user-attachments/assets/1a2f0480-5e5e-4df7-8862-2764cf583bf4" />
 
+## PART B: PCM ENCODING OF VARIABLE DC VOLTAGE
+> 14. Set the scope's Mode control to the CH1 position.
+> 15. Set the scope's Trigger Source control to the EXT position.
+> 16. Set the scope's Trigger Source Coupling control to the HF REJ position.
+> 17. Modify the set-up to include the Variable DCV module to change the DC voltage on the PCM Encoder module's input.
+
+<img width="1808" height="1365" alt="image" src="https://github.com/user-attachments/assets/f0754c11-f410-4047-b64f-b4d3f18e67cc" />
+
+> 18. Set the scope's Channel 1 Vertical Attenuation control to the 1V/div position.
+> 19. Set the scope's Channel 1 Input Coupling control to the GND position.
+> 20. Use the scope's Channel 1 Vertical Position control to align the trace with a horizontal line (zero volt reference).
+> 21. Set the scope's Channel 1 and Channel 2 Input Coupling controls to the DC position.
+> 22. Set the scope's Mode control to the DUAL position.
+> 23. Adjust the Variable DCV module's Variable DC control until the PCM Encoder module outputs the 0V code.
+> 24. Measure the Variable DCV module's output voltage (should be close to 0V).
+> 25. Turn the Variable DCV module's Variable DC control clockwise.
+> 26. Continue turning clockwise until the PCM Encoder module's output is 11111111.
+> 27.  Record the input voltage in Table 1.
+> 28.  Devise a method (using a Buffer or Adder) to reach the upper and lower limits of the input range if necessary.
+> 29.  Adjust the setup for a small negative input voltage.
+> 30.  Increase the negative voltage and observe the binary number output.
+> 31.  Continue until the output is 00000000.
+> 32.  Measure and record this value in Table 1.
+
+
+## BLOCK DIAGRAM
+<img width="2743" height="2398" alt="image" src="https://github.com/user-attachments/assets/e191bfe8-428b-4e30-b9b0-740965c004b1" />
+
+## PART C: QUANTIZATION
+> 33. Return to the basic variable DC setup and set the control to the middle of its travel.
+> 34. Vary the control left and right slightly to observe that the output code remains unchanged until a quantisation threshold is crossed.
+
+
+
+## PART D: PCM ENCODING OF CONTINUOSLY CHANGING VOLTAGES
+> 35. Return the scope's Trigger Source control to CH1 and Trigger Source Coupling to AC.
+> 36. Set the scope's Vertical Attenuation for both channels to 2V/div.
+> 37. Locate the VCO module and set its Range control to the HI position.
+> 38. Turn the VCO module's Frequency Adjust control fully anti-clockwise (for approx. 50kHz clock).
+> 39. Disassemble the current set-up.
+> 40. Connect the setup where the VCO clocks the PCM Encoder and a sinewave is applied to the input.
+> 41. Set the scope's Timebase control to the 50µs/div position.
+> 42. Watch the PCM Encoder module's PCM DATA output change continuously on the scope.
+> 43. Return the scope's Variable Sweep control to the locked position.
+
+
+
+<img width="1639" height="1231" alt="image" src="https://github.com/user-attachments/assets/a1f03eb5-0dcc-41f9-be58-c0d7e6e02d32" />
 
 
 
