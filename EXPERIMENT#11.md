@@ -15,5 +15,12 @@
 > 3. Connect the 8KHZ DIGITAL output to the CONTROL input of the switch.
 > 4. Set the oscilloscope's Trigger Source to CH1 and the Mode to CH1.
 > 5. View the 2KHz SINE output on CH1 and adjust the Timebase to view approximately two cycles.
+> 6. Connect the output of the switch to CH2 of the scope and switch the scope to DUAL mode.
+> 7. Set the Vertical Attenuation controls to 1V/div.
+> 8. Natural Sampling: Observe the waveform where the pulses follow the shape of the message signal.
+> 9. Sample-and-Hold: Modify the set-up to use the S/H circuit (Figure 4) and observe the resulting waveform.
+
+##BLOCK DIAGRAM
+
 
 
