@@ -82,10 +82,12 @@ Part D: Aliasing, demonstrates the effects of low sampling rates by introducing 
 
 # QUESTION AND ANSWER
 > 1. What two features of the sampled signal confirm that the set-up models the sample-and-hold scheme?
+
    > ANSWER
 The flat-topped segments in the waveform indicate that the signal is being held constant during each interval. The discrete sampling points show the exact moments when the signal is captured. These features confirm the setup models the sample-and-hold scheme.
 
 > 2. Why is the practical minimum sampling rate slightly higher than the theoretical Nyquist rate?
+
    > ANSWER
 The practical minimum sampling rate is slightly higher than the theoretical Nyquist rate because of real-world factors such as filter imperfections, noise, and signal distortion. These factors require a higher sampling rate to accurately reconstruct the original signal and avoid aliasing.
 
