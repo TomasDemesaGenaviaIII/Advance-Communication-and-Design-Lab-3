@@ -90,5 +90,9 @@
 <img width="1639" height="1231" alt="image" src="https://github.com/user-attachments/assets/a1f03eb5-0dcc-41f9-be58-c0d7e6e02d32" />
 
 
-
+| PCM ENCODER(OUTPUT) | PCM ENCOUDER (INPUT VOLTAGE)|
+|------------------|--------------------|
+| 11111111(+ PEAK) | + 2.5 V            | 
+| 10000000 (MP)    | 0.00 V             | 
+| 00000000 (- PEAK) | -2.5 V             | 
  
