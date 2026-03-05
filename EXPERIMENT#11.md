@@ -67,7 +67,13 @@
 
 ## PART A: SAMPLING 
 <img width="628" height="476" alt="Part A Output" src="https://github.com/user-attachments/assets/36c57786-98f9-42b0-b933-587bb49c355a" />
-This measurement emphasizes the importance of accurate waveform observation in diagnosing circuit behavior. Comparing amplitude, frequency, and phase across channels can reveal system non-idealities such as loading effects, signal attenuation, or distortion. Such analysis strengthens understanding of signal interactions in practical applications and enhances skills in troubleshooting and interpreting oscilloscope data effectively. It also highlights the necessity of carefully setting time and voltage scales to capture meaningful data without aliasing or loss of resolution.
+
+<img width="622" height="470" alt="Part B Output" src="https://github.com/user-attachments/assets/0e32160e-e606-441b-9740-75d168f71077" />
+
+<img width="621" height="456" alt="Part D Output" src="https://github.com/user-attachments/assets/50dbb844-be7b-41fa-b6da-81f875899344" />
+
+The three waveforms depicted in the images illustrate different aspects of signal analysis, each offering insights into the behavior of the signal under various conditions. The first waveform, labeled "Part A: Sampling," shows a relatively clean sinusoidal wave, indicative of a well-sampled signal that accurately captures the original waveform without significant distortion. The measured parameters, such as the peak-to-peak voltage (Vpp) and frequency, suggest a stable and consistent signal, which is essential for precise digital representation. Moving to "Part B: Speech," the waveform appears more complex and less uniform, reflecting the natural variability inherent in speech signals. This complexity is characterized by fluctuations in amplitude and frequency, which are typical of human speech patterns and require more sophisticated processing to analyze effectively. The final waveform, "Part D: Aliasing," demonstrates the effects of inadequate sampling rates, where the waveform appears distorted and introduces artifacts that do not correspond to the original signal. This aliasing effect results from undersampling, causing the high-frequency components to fold back into lower frequencies, thereby corrupting the integrity of the signal. Overall, these waveforms highlight the importance of proper sampling techniques and the challenges posed by real-world signals like speech. They underscore how critical it is to select appropriate sampling rates and filtering methods to preserve signal fidelity and avoid distortions such as aliasing.
+
 
 
 
