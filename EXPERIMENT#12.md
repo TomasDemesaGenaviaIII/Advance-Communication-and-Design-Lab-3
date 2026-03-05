@@ -108,6 +108,9 @@
 > 16.  To reduce quantisation error it's better to have:
 
 
+>     ANSWERS
+
+
 ## DATA ANALYSIS AND RESULTS
 | PCM ENCODER(OUTPUT) | PCM ENCOUDER (INPUT VOLTAGE)|
 |------------------|--------------------|
