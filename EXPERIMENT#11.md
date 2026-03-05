@@ -72,7 +72,23 @@
 
 <img width="621" height="456" alt="Part D Output" src="https://github.com/user-attachments/assets/50dbb844-be7b-41fa-b6da-81f875899344" />
 
-Each of the three waveforms in the images provides insight into the signal's behavior under various conditions and illustrates various aspects of signal analysis. The first waveform, which is called "Part A: Sampling," shows a sinusoidal wave that is relatively clean. This means that the signal has been well-sampled and accurately reproduces the original waveform without much distortion. For accurate digital representation, the measured parameters, such as the peak-to-peak voltage (Vpp) and frequency, indicate a stable and consistent signal. The waveform appears to be more complex and less uniform when we move on to "Part B: Speech," which is a reflection of the natural variability that is a part of speech signals. The fluctuations in amplitude and frequency that characterize this complexity are typical of human speech patterns and necessitate more advanced processing for effective analysis. The final waveform, "Part D: Aliasing," demonstrates the effects of low sampling rates by introducing artifacts that do not match the original signal and making the waveform appear distorted. Undersampling causes the high-frequency components of the signal to fold back into the lower frequencies, resulting in the aliasing effect. In general, these waveforms emphasize the significance of effective sampling methods and the difficulties presented by real-world signals like speech. They emphasize how important it is to choose the right filtering techniques and sampling rates to keep the signal's fidelity and avoid distortions like aliasing.
+Each of the three waveforms in the images provides insight into the signal's behavior under various conditions and illustrates various aspects of signal analysis. The first waveform, which is called "Part A: Sampling," shows a sinusoidal wave that is relatively clean. This means that the signal has been well-sampled and accurately reproduces the original waveform without much distortion. For accurate digital representation, the measured parameters, such as the peak-to-peak voltage (Vpp) and frequency, indicate a stable and consistent signal. The waveform appears to be more complex and less uniform when we move on to 
+
+Part B: Speech, which is a reflection of the natural variability that is a part of speech signals. The fluctuations in amplitude and frequency that characterize this complexity are typical of human speech patterns and necessitate more advanced processing for effective analysis. The final waveform, 
+
+Part D: Aliasing, demonstrates the effects of low sampling rates by introducing artifacts that do not match the original signal and making the waveform appear distorted. Undersampling causes the high-frequency components of the signal to fold back into the lower frequencies, resulting in the aliasing effect. In general, these waveforms emphasize the significance of effective sampling methods and the difficulties presented by real-world signals like speech. They emphasize how important it is to choose the right filtering techniques and sampling rates to keep the signal's fidelity and avoid distortions like aliasing.
+
+# QUESTION AND ANSWER
+> 1. What two features of the sampled signal confirm that the set-up models the sample-and-hold scheme?
+   ANSWER
+The flat-topped segments in the waveform indicate that the signal is being held constant during each interval. The discrete sampling points show the exact moments when the signal is captured. These features confirm the setup models the sample-and-hold scheme.
+
+> 2. Why is the practical minimum sampling rate slightly higher than the theoretical Nyquist rate?
+   ANSWER
+The practical minimum sampling rate is slightly higher than the theoretical Nyquist rate because of real-world factors such as filter imperfections, noise, and signal distortion. These factors require a higher sampling rate to accurately reconstruct the original signal and avoid aliasing.
+
+# LEARNING SUMMARY
+> The Nyquist-Shannon sampling theorem was demonstrated in practice by this experiment. I discovered that theoretical models recommend a sampling rate of 2fm a "guard band," or a sampling rate slightly higher than the theoretical minimum, is required to ensure clean reconstruction due to real-world limitations, such as the gradual roll-off of physical filters like the Tuneable LPF. Anti-aliasing measures are essential for digital communication systems, as evidenced by firsthand observation of the visual "shimmer" of aliasing.
 
 
 
