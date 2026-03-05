@@ -40,6 +40,8 @@
 ## PART C: RECONSTRUCTING A SAMPLED MESSAGE
 > 14. Return the Timebase to 0.1ms/div and reconnect the 2KHz SINE message.
 > 15. Set the Tuneable LPF module's Gain to the middle and turn the Cut-off Frequency Adjust fully anti-clockwise.
+> 16. Connect the output of the Sample-and-Hold circuit to the IN of the Tuneable LPF.
+> 17. Slowly turn the Cut-off Frequency control clockwise until the 2KHz sine wave is reconstructed on the oscilloscope.
 
 
 
@@ -47,8 +49,18 @@
 <img width="1339" height="943" alt="image" src="https://github.com/user-attachments/assets/32b7defe-8f73-4803-bb90-946791ab2ca4" />
 <img width="1343" height="969" alt="image" src="https://github.com/user-attachments/assets/36b190fa-ab6a-4de7-9073-fed1a71cc5e3" />
 
+## BLOCK DIAGRAM
+<img width="677" height="490" alt="Part C Block Diagram" src="https://github.com/user-attachments/assets/07caa501-1019-4a0f-9b90-7726e9c9f003" />
+
+PART D: INVESTIGATING ALIASING
+> 18. Locate the VCO module, set Frequency Adjust fully clockwise, and set Range to LO.
+> 19. Replace the fixed 8KHz control signal with the VCO variable frequency output.
+> 20. Monitor the reconstructed signal on CH2 while slowly decreasing the VCO frequency.
+> 21. Observe the distortion (aliasing) that occurs as the sampling rate drops below the Nyquist rate.
 
 
+## BLOCK DIAGRAM
+![Uploading Part D Block Diagram.png…]()
 
 
 
