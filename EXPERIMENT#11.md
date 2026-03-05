@@ -20,7 +20,9 @@
 > 8. Natural Sampling: Observe the waveform where the pulses follow the shape of the message signal.
 > 9. Sample-and-Hold: Modify the set-up to use the S/H circuit (Figure 4) and observe the resulting waveform.
 
-##BLOCK DIAGRAM
+
+
+# BLOCK DIAGRAM
 
 
 
