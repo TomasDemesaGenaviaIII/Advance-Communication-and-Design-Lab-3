@@ -1,4 +1,4 @@
-#EXP 20: UNDERSAMPLING IN SDR
+# EXP 20: UNDERSAMPLING IN SDR
 ## OBJECTIVES
 > 1. To generate a bandwidth-limited DSBSC signal.
 > 2. To understand the concept of undersampling (band-pass sampling).
