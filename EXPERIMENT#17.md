@@ -24,7 +24,7 @@
 > 6. Set the scope's Timebase control to the 0.1ms/div position.
 > 7. Locate the Sequence Generator module and set its dip-switches to 00.
 > 8. Connect the set-up so that:
-        • Sequence Generator CLK connects to Master Signals 8kHz clock.
-        • Sequence Generator SYNC connects to Scope EXT trigger.
-        • Sequence Generator OUT connects to Multiplier X input.
-        • Master Signals 100kHz sine connects to Multiplier Y input.
+        > Sequence Generator CLK connects to Master Signals 8kHz clock.
+        > Sequence Generator SYNC connects to Scope EXT trigger.
+        > Sequence Generator OUT connects to Multiplier X input.
+        > Master Signals 100kHz sine connects to Multiplier Y input.
