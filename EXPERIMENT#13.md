@@ -106,3 +106,5 @@
 
 
 ## DATA ANELYSIS AND REFLECTION
+>The experiment demonstrated that a "staircase" PAM waveform is the raw output of a PCM decoder. The sampling intervals are represented by the high-frequency "steps." The receiver maintained perfect alignment by "stealing" the transmitter's Clock and Frame Sync functions. The Tuneable LPF's final reconstruction step was crucial for smoothing the signal back into its analog form.
+> The return to analog reality from digital data was clearly demonstrated in this lab. The most important takeaway was that bit and frame synchronization are absolutely necessary; without them, the data is just noise. In addition, it demonstrated how our reconstructed signal suffers from resolution limitations imposed by bit depth (8 bits), highlighting the significance of quantization theory in digital communications.
