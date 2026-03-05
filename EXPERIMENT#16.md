@@ -26,10 +26,11 @@
 > 8. Set the VCO module's Range control to the LO position.
 > 9. Set the Sequence Generator dip-switches to 00 (both up).
 > 10. Connect the set-up so that:
+
         • The Sequence Generator SYNC output connects to the Scope EXT trigger.
         • The Sequence Generator OUT connects to the VCO IN.
         • The VCO OUT connects to Scope Channel 2.
-> 11. Set the scope’s Timebase control to 0.5ms/div.
-> 12. Set the scope’s Mode control to the DUAL position to view both the digital signal and the FSK signal.
-> 13. Compare the signals and observe how the carrier frequency shifts according to the digital data.
+> 12. Set the scope’s Timebase control to 0.5ms/div.
+> 13. Set the scope’s Mode control to the DUAL position to view both the digital signal and the FSK signal.
+> 14. Compare the signals and observe how the carrier frequency shifts according to the digital data.
 
