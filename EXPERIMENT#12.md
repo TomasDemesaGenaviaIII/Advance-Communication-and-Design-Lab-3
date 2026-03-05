@@ -16,7 +16,8 @@
 > 3. Locate the PCM Encoder module and set its Mode switch to the PCM position.
 > 4. Connect the set-up where the PCM Encoder module is clocked by the Master Signals module’s 8kHz DIGITAL output and its analog input is connected to 0V DC.
 
-<img width="3131" height="2440" alt="image" src="https://github.com/user-attachments/assets/4a97cc84-ee36-4e34-bda3-7a8728b96029" />
+<img width="3131" height="2440" alt="image" src="https://github.com/user-attachments/assets/82bcd05f-e181-4b8b-a602-0950fc61c274" />
+
 
 > 5. Adjust the scope's Timebase control to view three pulses of the PCM Encoder module's FS output.
 > 6. Set the scope's Slope control to the position to start the sweep when the FS signal goes from high to low.
@@ -24,7 +25,8 @@
 > 8. Set the scope's Timebase control to the 0.1ms/div position.
 > 9. Adjust the scope's Variable Sweep control until the FS signal matches the required reference.
 
-<img width="2868" height="2151" alt="image" src="https://github.com/user-attachments/assets/ceb432e0-421d-4d39-92c7-72398867caa3" />
+<img width="2868" height="2151" alt="image" src="https://github.com/user-attachments/assets/7a2bb5f3-6bb9-463b-90ef-6848501562cd" />
+
 
 > 11. Set the scope's Mode control to the DUAL position to view the PCM Encoder module’s CLK input as well as its FS output.
 > 12. Draw the two waveforms to scale, leaving enough room for a third digital signal.
