@@ -111,6 +111,25 @@
 >     ANSWERS
 
 
+> 1. The frame starts at the beginning of Bit-7 (MSB) and ends after Bit-0 (LSB).
+> 2. Each bit period is defined by one period of the 8kHz clock signal.
+> 3. Bit-7 is transmitted first; Bit-0 is transmitted last and coincides with the FS signal.
+> 4. Typically 10000000, representing the midpoint of the bipolar range.
+> 5. This is caused by analog noise; if the voltage is at a quantisation threshold, noise makes the bit toggle.
+> 6. Because the system is bipolar; 00000000 is for the most negative voltage, and 0V is the center.
+> 7. The DC voltage level increases.
+> 8. The binary value increases as the input voltage becomes more positive.
+> 9. The Variable DCV's max output may be lower than the encoder's required reference for that code.
+> 10. Use an Adder module to add a DC offset or a Buffer with gain to boost the signal.
+> 11. The binary number decreases toward 00000000.
+> 12. Approximately 4Vpp (the difference between the max and min recorded voltages).
+> 13. Quantisation Error.
+> 14. STEP SIZE (Δ = Vmax - Vmin)/256
+> 15. more quantisation levels between ±2.5V.
+> 16. Because the analog input (sinewave) is constantly changing, each sample taken results in a different binary code.
+
+
+
 ## DATA ANALYSIS AND RESULTS
 | PCM ENCODER(OUTPUT) | PCM ENCOUDER (INPUT VOLTAGE)|
 |------------------|--------------------|
@@ -119,3 +138,4 @@
 | 00000000 (- PEAK) | -2.5 V             | 
  
 # LEARNING SUMMARY
+I found out through this experiment that PCM encoding requires quantization to assign discrete levels and involves more than just sampling. I learned how serial data frames accurately represent analog signals by observing how the bitstream responds to DC and AC signals.
