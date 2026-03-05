@@ -63,5 +63,11 @@
 ## BLOCK DIAGRAM
 <img width="674" height="500" alt="Part D Block Diagram" src="https://github.com/user-attachments/assets/2a999c99-1f78-48a3-9485-7543851e4342" />
 
+# RESULTS ANALYSIS AND REFLECTION
+
+## PART A: SAMPLING 
+<img width="628" height="476" alt="Part A Output" src="https://github.com/user-attachments/assets/36c57786-98f9-42b0-b933-587bb49c355a" />
+This measurement emphasizes the importance of accurate waveform observation in diagnosing circuit behavior. Comparing amplitude, frequency, and phase across channels can reveal system non-idealities such as loading effects, signal attenuation, or distortion. Such analysis strengthens understanding of signal interactions in practical applications and enhances skills in troubleshooting and interpreting oscilloscope data effectively. It also highlights the necessity of carefully setting time and voltage scales to capture meaningful data without aliasing or loss of resolution.
+
 
 
